@@ -1,0 +1,6 @@
+#to commit you have to mention a message
+#there are two type to mention
+#First is using a editor to generate message + body
+git commit
+#Second is on command line only message
+git commit -m "message"

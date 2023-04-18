@@ -1,0 +1,15 @@
+#How to save temporary changes (not compatible to the remote commit)
+git stash
+#To reapply the changes
+git stash apply
+
+#To review stash objects use
+git stash list
+
+#to drop a stash use
+git stash drop number
+
+#pop command simultaneously applies and drops the stash
+git pop number
+
+NOTE: Do not overwrite the stashed file, If you do then the changes stash apply wont work.

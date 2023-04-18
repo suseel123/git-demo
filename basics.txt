@@ -1,0 +1,2 @@
+#to initialize a repository use
+git init

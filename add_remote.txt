@@ -1,0 +1,2 @@
+#to add a remote repository use
+git remote add origin (Ctrl+v repository link)

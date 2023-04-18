@@ -1,0 +1,6 @@
+#There are two ways to merge one branch into other
+#First is to generate a Pull request, it helps to review the code by fellow developers before committing to the master branch
+git push origin feature_branch
+# Second is to directly merge a branch, for this you have to switch to the branch which you are interested to commit
+git checkout master
+git merge feature_branch
